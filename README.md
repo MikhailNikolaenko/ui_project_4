@@ -1,38 +1,46 @@
-# sv
+# Drift
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A minimal UI application for project 4 of UI course at University of Cincinnati; designed to increase awareness of doom scrolling habits and promote healthier digital consumption.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Real-time scroll activity tracking
+- Gentle awareness notifications
+- Simple, distraction-free interface
+- Session insights and statistics
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Live Demo
 
-# create a new project in my-app
-npx sv create my-app
+Visit the live application: [https://driftui4.netlify.app/](https://driftui4.netlify.app/)
+
+## Getting Started
+
+### Prerequisites
+- Node.js 14+
+- npm or yarn
+
+### Installation
+
+```bash
+git clone <repository-url>
+cd ui_project_4
+npm install
 ```
 
-## Developing
+### Running Locally
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```bash
+npm start
 ```
 
-## Building
+The app will open at `http://localhost:3000`
 
-To create a production version of your app:
+## Usage
 
-```sh
-npm run build
-```
+Open the app and start browsing. Drift will monitor your scrolling patterns and provide gentle reminders to help you stay mindful of your usage. (auto-tracking is not available yet, manual only)
 
-You can preview the production build with `npm run preview`.
+## Technologies
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- SvelteKit
+- CSS
+- JavaScript
